@@ -11,7 +11,7 @@ public class ApiTest {
     void shouldReturn() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("some data123")
                 .when()
                 .post("/post")
                 .then()
